@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cedar Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Cedar and its YouTube uploader app (shorts-uploader).">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 L6 27 H26 Z' fill='%23ffd166'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="logo" href="./" aria-label="Cedar home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 L5 16 H11 L4 25 H28 L21 16 H27 Z" fill="#ffd166"/><rect x="14.5" y="25" width="3" height="5" fill="#bff0ff"/></svg>
+        Cedar
+      </a>
+      <nav><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+    </header>
+
+    <main class="doc">
+      <h1>Privacy policy</h1>
+      <p class="meta">Effective November 23, 2026. Applies to the Cedar website and to "shorts-uploader", the Google OAuth app that Cedar uses to manage its own YouTube channel.</p>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>shorts-uploader is a private tool. Cedar's owner uses it only with Cedar's own YouTube channel. It is not offered to the public.</li>
+        <li>It uploads Cedar's own videos as <strong>private</strong> and reads Cedar's own channel statistics. The app's code always uploads as private, and making a video public is done by a person in YouTube Studio. Its permissions don't allow deleting or editing videos, or posting comments.</li>
+        <li>Nothing is sold, shared for advertising, or sent to any server we run. We don't run any servers.</li>
+        <li>This website uses no cookies, no analytics, and no tracking.</li>
+      </ul>
+
+      <h2>Google permissions the app uses</h2>
+      <table>
+        <thead><tr><th>Permission (scope)</th><th>What it's used for</th></tr></thead>
+        <tbody>
+          <tr><td><code>https://www.googleapis.com/auth/youtube.upload</code></td><td>Uploading finished Cedar videos, with their title, description and tags, to Cedar's channel. Every upload is set to private. A person publishes videos manually in YouTube Studio.</td></tr>
+          <tr><td><code>https://www.googleapis.com/auth/youtube.readonly</code></td><td>Reading Cedar's channel name and statistics, the list of uploaded videos, and each video's public counts (views, likes, comments). This confirms uploads went to the right channel and tracks performance.</td></tr>
+          <tr><td><code>https://www.googleapis.com/auth/yt-analytics.readonly</code></td><td>Reading aggregate YouTube Analytics reports for Cedar's own videos: views, watch time, average view duration, percentage viewed, likes, shares, subscribers gained, and traffic source totals. These reports are anonymous totals. They identify no individual viewer.</td></tr>
+        </tbody>
+      </table>
+      <p>The app asks for no other Google permissions: no Gmail, Drive, Contacts, or account management.</p>
+
+      <h2>What data is handled</h2>
+      <ul>
+        <li><strong>Sent to Google:</strong> Cedar's own video files and their metadata, when they are uploaded to YouTube.</li>
+        <li><strong>Received from Google:</strong> Cedar's channel information, video list, public video counts, and aggregate analytics totals, as described above.</li>
+        <li><strong>Sign-in credentials:</strong> the OAuth access and refresh tokens Google issues after the channel owner approves access. Passwords are never seen or stored. Google handles sign-in.</li>
+        <li><strong>Viewer data:</strong> none. The app receives no names, emails, comments, or other personal information about viewers.</li>
+      </ul>
+
+      <h2>How data is used</h2>
+      <p>The data is used only to operate Cedar's channel: uploading Cedar's videos, confirming that uploads succeeded, and studying aggregate performance to decide which topics and formats to make next. The channel owner uses AI tools, including Anthropic's Claude, to help run the production scripts and review those aggregate statistics. Only Cedar's own channel totals are processed this way, never viewer personal data.</p>
+
+      <h2>Storage and security</h2>
+      <ul>
+        <li>OAuth tokens are stored only in one file on the channel owner's own computer. The file is readable only by that computer's user account. They are not uploaded, published, or shared.</li>
+        <li>Statistics snapshots (aggregate numbers only) are saved as files on the same computer to track performance over time.</li>
+        <li>No database, cloud server, or third-party storage is used.</li>
+      </ul>
+
+      <h2>Sharing</h2>
+      <p>We don't sell, rent, or share data from Google APIs with anyone, and we don't use it for advertising. The only exchange of data is with Google itself, through the YouTube APIs.</p>
+
+      <h2>Google API Services User Data Policy</h2>
+      <p>shorts-uploader's use and transfer of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Use of YouTube data is also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+      <h2>Retention and deletion</h2>
+      <p>Tokens are kept only while the app needs access. They stop working as soon as access is revoked, and the token file can be deleted from the computer at any time. Statistics snapshots are kept to compare performance over time and can be deleted at any time. Videos uploaded to YouTube stay on YouTube until they are deleted there.</p>
+
+      <h2>How to revoke access</h2>
+      <ol>
+        <li>Open <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> while signed in to the Google account that owns the channel.</li>
+        <li>Choose <strong>shorts-uploader</strong> and select <strong>Remove access</strong>. The app immediately loses all access.</li>
+        <li>Optionally, delete the token file from the computer where the app runs.</li>
+      </ol>
+
+      <h2>Watching Cedar on YouTube</h2>
+      <p>If you watch Cedar's videos, YouTube's own privacy policy applies to that viewing. Cedar can't see who you are.</p>
+
+      <h2>Changes</h2>
+      <p>If the app's permissions or data use change, this page will be updated before the change takes effect, with a new effective date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: <a href="mailto:cedarandmotion@gmail.com">cedarandmotion@gmail.com</a>.</p>
+    </main>
+
+    <footer>
+      <span>© 2026 Cedar</span>
+      <span><a href="./">Home</a> · <a href="https://www.youtube.com/channel/UCObrXB3QZIYtCObE8E3ykRA">YouTube channel</a></span>
+    </footer>
+  </div>
+</body>
+</html>
